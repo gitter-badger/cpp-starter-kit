@@ -1,6 +1,6 @@
 ## Use compiler debugging flags per default
 INCLUDE(CxxFlags)
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${CMAKE_CXX_FLAGS_DEBUG}")
+SET(CMAKE_CXX_FLAGS '${CMAKE_CXX_FLAGS} ${CMAKE_CXX_FLAGS_DEBUG}')
 
 ## Creating Binaries for each *.cxx file
 SET(PROJECT_LIBS ${Boost_LIBRARIES})
